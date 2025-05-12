@@ -16,7 +16,7 @@ app.use(express.json({ extended: false }));
 app.get('/', (req, res) => res.send('Gebeya Backend Running'));
 
 // Define Routes
-app.use('/api/users', require('./routes/users'));
+app.use('/api/users', require('./server/routes/users'));
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/products', require('./routes/products'));
 // Add other routes...
