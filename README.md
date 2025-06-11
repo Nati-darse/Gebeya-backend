@@ -1,4 +1,4 @@
-# Gebeya Backend
+#Gebeya Backend
 
 The backend service for Gebeya - an agricultural wholesale marketplace connecting farmers/wholesalers with urban customers.
 
