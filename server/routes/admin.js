@@ -1,8 +1,8 @@
 const express = require('express');
 const User = require('../models/User');
 const Product = require('../models/Product');
-const Order = require('../models/Order');
-const { protect, isAdmin } = require('../middlewares/auth');
+const Order = require('../models/order');
+const { protect, isAdmin } = require('../middleware/auth');
 
 const router = express.Router();
 

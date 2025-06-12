@@ -4,12 +4,12 @@ const {
   login,
   getMe,
   updateProfile
-} = require('../controllers/authController');
-const { protect } = require('../middlewares/auth');
+} = require('../controllers/authcontroller');
+const { protect } = require('../middleware/auth.js');
 const {
   validateUserRegistration,
   validateUserLogin
-} = require('../middlewares/validation');
+} = require('../middleware/validation');
 
 const router = express.Router();
 

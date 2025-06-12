@@ -6,9 +6,9 @@ const {
   updateProduct,
   deleteProduct,
   getMyProducts
-} = require('../controllers/productController');
-const { protect, isWholesaler } = require('../middlewares/auth');
-const { validateProduct } = require('../middlewares/validation');
+} = require('../controllers/productcontroller');
+const { protect, isWholesaler } = require('../middleware/auth');
+const { validateProduct } = require('../middleware/validation');
 
 const router = express.Router();
 

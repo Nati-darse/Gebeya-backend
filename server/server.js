@@ -1,5 +1,5 @@
 const dotenv = require('dotenv');
-const connectDB = require('./config/database');
+const connectDB = require('./config/db');
 const app = require('./app');
 
 // Load environment variables
@@ -12,5 +12,5 @@ const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
   console.log(` Gebeya Backend Server running on port ${PORT}`);
-  console.log(` Environment: ${process.env.NODE_ENV}`);
+  console.log(`🌍 Environment: ${process.env.NODE_ENV}`);
 });
